@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+#container {
+  width: 100%;
+  padding: 2rem;
+  max-width: 400px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #444;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4facfe;
+}
+
+form button {
+  border: none;
+  color: #fff;
+  padding: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #4facfe;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background: #3b89da;
+}
+
+a {
+  display: flex;
+  color: #4facfe;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.3s;
+  justify-content: center;
+}
+
+a p {
+  margin-left: 0.5rem;
+}
+
+a p:hover {
+  color: #0557ad;
+}
